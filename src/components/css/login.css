@@ -1,0 +1,133 @@
+.login {
+  position: relative;
+}
+
+h2 {
+  font-weight: 600;
+  margin-top: 0;
+}
+h4 {
+  font-size: 20px;
+  margin-bottom: 3vw;
+}
+
+.sign {
+  margin-bottom: 5vh;
+  letter-spacing: 5px;
+  margin-left: 10vw;
+}
+
+.log {
+  display: grid;
+  justify-content: center;
+  grid-template-areas: "box1 box1" "box2 box3";
+}
+.facebook {
+  grid-area: box1;
+  width: 100%;
+  background: rgba(228, 228, 228, 0.3);
+  padding: 38px;
+  text-align: center;
+  border-radius: 4px;
+}
+.facebook button {
+  padding: 2vh 10vw;
+  border-radius: 7px;
+  background: #3b5998;
+  font-weight: 700;
+  color: white;
+  border: none;
+  letter-spacing: 1px;
+}
+.return {
+  grid-area: box2;
+  width: 38vw;
+  margin: 1vw 1vw 0 0;
+  padding: 20px;
+  background: rgba(228, 228, 228, 0.3);
+  border-radius: 4px;
+  position: relative;
+}
+.new {
+  grid-area: box3;
+  padding: 20px 20px 100px 20px;
+  background: rgba(228, 228, 228, 0.3);
+  border-radius: 4px;
+  width: 40vw;
+  margin: 1vw 0 0 0;
+  position: relative;
+}
+
+label {
+  margin-bottom: 1px;
+  font-size: 10px;
+}
+
+.return .btn {
+  padding: 0.5vw 5vw;
+  font-weight: 550;
+  font-size: 13px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 50vh;
+  left: 21vw;
+}
+.new .btn {
+  padding: 0.5vw 5vw;
+  font-weight: 550;
+  font-size: 13px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 70vh;
+  left: 21vw;
+}
+.text-muted {
+  font-size: 10px;
+}
+.login-footer {
+  background: #343a40;
+  color: white;
+  margin: 8vh 0 0 0;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login-footer p {
+  margin: 0 1vw 0 0;
+  font-size: 13px;
+}
+
+.login-footer h6 {
+  margin: 2px 3vw 0 0;
+  font-size: 13px;
+  font-weight: 550;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 937px) {
+  .log {
+    display: grid;
+    justify-content: center;
+    grid-template-areas: "box2 box2" "box3 box3" "box1 box1";
+  }
+  .return {
+    width: 100%;
+    margin-bottom: 3vh;
+  }
+  .return .btn {
+    top: 37vh;
+    left: 66vw;
+  }
+  .new {
+    width: 100%;
+  }
+  .new .btn {
+    top: 58vh;
+    left: 64vw;
+  }
+  .facebook {
+    padding-top: 0;
+  }
+}

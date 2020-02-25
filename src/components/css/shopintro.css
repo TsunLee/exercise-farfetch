@@ -1,0 +1,23 @@
+.shop-intro {
+  margin-top: 4vh;
+  align-items: center;
+  text-align: center;
+}
+
+.shop-intro h1 {
+  font-size: 4vh;
+  font-weight: 600;
+  margin: 3vh;
+}
+
+.shop-intro p {
+  font-size: 1.2vw;
+}
+
+.butt {
+  margin-bottom: 6vh;
+}
+
+.shop img {
+  width: 70vw;
+}

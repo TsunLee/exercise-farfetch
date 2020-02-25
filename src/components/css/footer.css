@@ -1,0 +1,58 @@
+.footer {
+  background: #333;
+  color: rgb(224, 224, 224);
+}
+.basehead {
+  margin-top: 20px;
+}
+.footer h5 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #aaa;
+  letter-spacing: 2px;
+}
+.footer li {
+  list-style: none;
+  font-size: 13px;
+  padding: 3px;
+}
+.footer p {
+  font-size: 13px;
+}
+
+.accordion {
+  display: none;
+}
+
+@media screen and (max-width: 995px) {
+  .container {
+    display: none;
+  }
+  .accordion {
+    display: block;
+  }
+  .card {
+    background: #333;
+    border: none;
+  }
+  .card-header {
+    border-bottom: none;
+    padding: 3px 20px;
+    cursor: pointer;
+  }
+  .card-body {
+    padding: 10px 20px;
+  }
+  .footer h5 {
+    font-size: 14px;
+    padding: 0 0 5px;
+  }
+  .footer p {
+    margin: 0;
+    font-size: 15px;
+  }
+  .footer li {
+    margin: 0;
+    font-size: 15px;
+  }
+}

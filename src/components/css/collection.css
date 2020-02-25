@@ -1,0 +1,31 @@
+.collection img {
+  width: 100%;
+}
+.collection a {
+  text-decoration: none;
+}
+.collection p {
+  color: rgba(219, 199, 86, 0.863);
+  margin-top: 5vh;
+  margin-bottom: 1vh;
+  font-size: 2vh;
+}
+
+.collection h5 {
+  font-size: 1.2vw;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: black;
+}
+
+.collection h4 {
+  margin-top: 2vh;
+  font-size: 1.3vw;
+  color: black;
+}
+
+.collection h6 {
+  font-size: 1.1vw;
+  margin-top: 2px;
+  color: black;
+}
