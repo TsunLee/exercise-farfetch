@@ -71,7 +71,9 @@ const items = [
 const Women = () => {
   const [product, setProduct] = useState([]);
   const getProduct = async () => {
-    const response = await fetch("http://localhost:5000/womenProduct");
+    const response = await fetch(
+      "https://first-fake-data.herokuapp.com/womenProduct"
+    );
     const data = await response.json();
     setProduct(data);
     console.log(data);
