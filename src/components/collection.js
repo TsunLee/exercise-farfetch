@@ -1,11 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./css/collection.css";
-import Details from "../container/details";
 
 const Collection = ({ gender, image, title, description, price, id }) => {
-  console.log({ gender });
-
   return (
     <div className="product">
       <Link to={`/${gender}/${id}`}>

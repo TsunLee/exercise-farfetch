@@ -1,0 +1,146 @@
+.bag {
+  display: flex;
+}
+.shopBag {
+  text-align: center;
+  margin: 3vw;
+}
+.shopBag h5 {
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.bagItem {
+  margin: 1vw 0 0 3vw;
+  width: 65%;
+}
+.country {
+  margin-left: 1.5vw;
+}
+
+.estimated {
+  margin-right: 1.1vw;
+}
+
+.bagBar {
+  border: 2px solid rgba(226, 226, 226, 0.2);
+  padding: 1vw;
+  margin: 0 3vw;
+  border-bottom: none;
+  font-size: 0.8vw;
+  letter-spacing: 0.1vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bagDetail {
+  border: 2px solid rgba(226, 226, 226, 0.2);
+  display: flex;
+  padding: 2vw;
+  margin: 0 3vw 0 3vw;
+}
+
+.Quantity {
+  letter-spacing: 1px;
+  margin-top: 1.9vh;
+  font-size: 1vw;
+  color: rgb(51, 51, 51);
+}
+
+.Quantity button {
+  margin-top: 4vw;
+  padding: 1px 1.5vw;
+  font-size: 0.8vw;
+}
+
+.bagImage img {
+  height: 10vw;
+  margin-right: 1.5vw;
+}
+
+.bag a {
+  text-decoration: none;
+}
+.bag p {
+  color: rgba(206, 187, 80, 0.863);
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  font-size: 1vw;
+  font-weight: 700;
+}
+
+.bag h5 {
+  font-size: 1.2vw;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 7px;
+  color: black;
+}
+
+.bag h4 {
+  letter-spacing: 0.5px;
+  margin: 0 2.5vw;
+  margin-top: 2vh;
+  font-size: 18px;
+  color: black;
+}
+
+.bag h6 {
+  font-size: 1.1vw;
+  margin-top: 2px;
+  color: rgb(87, 86, 86);
+}
+
+.bagInfo {
+  width: 15vw;
+}
+
+.summary {
+  margin: 1vw 3vw 0 0;
+  width: 32%;
+  border: 2px solid rgba(226, 226, 226, 0.2);
+  padding: 1vw;
+}
+.summary h5 {
+  margin-bottom: 2vw;
+}
+.summary h6 {
+  margin-top: 1vw;
+}
+
+.total {
+  border-top: 2px solid rgba(226, 226, 226, 0.2);
+  margin-top: 3vw;
+}
+
+@media screen and (max-width: 1000px) {
+  .bagDetail {
+    padding-right: 0;
+  }
+  .summary {
+    display: none;
+  }
+  .bagItem {
+    width: 100%;
+  }
+  .Quantity {
+    margin: 1.4vw 0 0 1vw;
+    font-size: 1.4vw;
+  }
+  .Quantity button {
+    margin: 4vw 0 0 2vw;
+    font-size: 1vw;
+  }
+  .bag p {
+    font-size: 1.5vw;
+  }
+  .bag h5 {
+    font-size: 1.5vw;
+  }
+  .bag h6 {
+    font-size: 1.2vw;
+  }
+  .bagInfo {
+    width: 70%;
+  }
+}

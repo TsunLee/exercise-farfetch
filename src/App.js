@@ -9,6 +9,7 @@ import Cart from "./container/cart";
 import Details from "./container/details";
 import Login from "./container/login";
 import "./App.css";
+import { CartProvider } from "./components/CartContext";
 
 const App = () => {
   return (
@@ -19,11 +20,14 @@ const App = () => {
         <Route exact path="/women" component={Women} />
         <Route exact path="/men" component={Men} />
         <Route exact path="/kids" component={Kids} />
-        <Route path="/cart" component={Cart} />
         <Route path="/login" component={Login} />
-        <Route path="/menProduct/:id" component={Details} />
-        <Route path="/womenProduct/:id" component={Details} />
-        <Route path="/childrenProduct/:id" component={Details} />
+
+        <CartProvider>
+          <Route path="/cart" component={Cart} />
+          <Route path="/menProduct/:id" component={Details} />
+          <Route path="/womenProduct/:id" component={Details} />
+          <Route path="/childrenProduct/:id" component={Details} />
+        </CartProvider>
       </Router>
     </div>
   );

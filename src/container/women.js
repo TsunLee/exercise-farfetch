@@ -76,7 +76,6 @@ const Women = () => {
     );
     const data = await response.json();
     setProduct(data);
-    console.log(data);
   };
   useEffect(() => {
     getProduct();
